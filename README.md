@@ -1,6 +1,6 @@
 # <b>Sample Database Readme</b>
 
-This repository provides the example database files necessary for setting up the database to work with PowerBuilder Demo, such as [PowerBuilder-Graph-Example](https://github.com/Appeon/PowerBuilder-Graph-Example) and [PowerBuilder-Sales-Example](https://github.com/Appeon/PowerBuilder-Sales-Example). 
+This repository provides the example database files necessary for setting up the database to work with Appeon Demos, such as [PowerBuilder-Graph-Example](https://github.com/Appeon/PowerBuilder-Graph-Example) and [PowerBuilder-Sales-Example](https://github.com/Appeon/PowerBuilder-Sales-Example). 
 
 ### Supported database versions 
 
