@@ -1,6 +1,6 @@
 # <b>Sample Database Readme</b>
 
-This repository provides the example database files necessary for setting up the database to work with Appeon demos, such as [PowerBuilder-Graph-Example](https://github.com/Appeon/PowerBuilder-Graph-Example) and [PowerBuilder-Sales-Example](https://github.com/Appeon/PowerBuilder-Sales-Example). 
+This repository provides the example database files necessary for setting up the database to work with Appeon Demos, such as [PowerBuilder-Graph-Example](https://github.com/Appeon/PowerBuilder-Graph-Example) and [PowerBuilder-Sales-Example](https://github.com/Appeon/PowerBuilder-Sales-Example). 
 
 ### Supported database versions 
 
@@ -23,5 +23,6 @@ This repository provides the example database files necessary for setting up the
 1. Start pgAdmin;
 2. Create a new database pbpostgres within the server you are using; 
 3. Right click the database and choose Restore; 
-4. Use the Browser button to select the database backup file pbpostgres.dmp;
-5. Select Restore to start restoring the database.
+4. In the Restore screen, select "Custom or Tar" as the format, and "Postgres" as the Role Name;
+5. Use the Browser button to select the database backup file pbpostgres.dmp;
+6. Select Restore to restore the database. Note that during the process, an error message may appear that indicates public already exists in schemas. Please ignore this error, as it will not affect the restoration.
