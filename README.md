@@ -6,7 +6,7 @@ This repository provides the example database files necessary for setting up the
 
 - AppeonSample_for_sqlanywhere: SQL Anywhere 16 or later
 - pbdemo2021_for_sqlanywhere: SQL Anywhere 16 or later
-- pbpostgres_for_postgresql: PostgreSQL 10 or later
+- pbdemo2021_for_postgresql: PostgreSQL 10 or later
 
 ### Steps to restore AppeonSample_for_sqlanywhere
 
@@ -18,7 +18,7 @@ This repository provides the example database files necessary for setting up the
 1. Find the dbsrv17.exe file in the Bin64 folder of the SQL Anywhere 17 installation directory;
 2. Run dbsrv17.exe and load pbdemo2021.db.
 
-### Steps to restore pbpostgres_for_PostgreSQL
+### Steps to restore pbdemo2021_for_PostgreSQL
 
 1. Start pgAdmin;
 2. Create a new database pbpostgres within the server you are using; 
